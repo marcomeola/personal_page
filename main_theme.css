@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono&family=IBM+Plex+Mono&family=IBM+Plex+Sans&family=IBM+Plex+Serif:ital,wght@1,600&family=Lato&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono');
+
+:root {
+  --nord0: #2e3440;
+    --nord1: #3b4252;
+    --nord2: #434c5e;
+    --nord3: #4c566a;
+    --nord4: #d8dee9;
+    --nord5: #e5e9f0;
+    --nord6: #eceff4;
+    --nord7: #8fbcbb;
+    --nord8: #88c0d0;
+    --nord9: #81a1c1;
+    --nord10: #5e81ac;
+    --nord11: #bf616a;
+    --nord12: #d08770;
+    --nord13: #ebcb8b;
+    --nord14: #a3be8c;
+    --nord15: #b48ead;
+}
+
+/* Theme */
+  :root {
+    --primary: #388e00;
+  }
+
+html {
+  /*-- Main font sizes --*/
+    --title-size:      50px;
+  --body-size:       
+    --code-size:       30px;
+  --aside-size:      12px;
+  --fig-cap-size:    13px;
+  
+  /*-- Main font colors --*/
+    --title-color:     #000000;
+    --header-color:    rgba(0, 0, 0, 0.8);
+  --body-color:      var(--nord0);
+  --aside-color:     rgba(0, 0, 0, 0.6);
+  --fig-cap-color:   rgba(0, 0, 0, 0.6);
+  
+  /*-- Specify custom fonts */
+    --heading-font:    palatino, palatino;
+  --mono-font:       palatino, palatino;
+  --body-font:       palatino, palatino;
+  --navbar-font:     palatino, palatino; 
+  /* websites + blogs only */
+}
+
+/*-- Main section --*/
+  d-article,d-appendix, body {
+    background-color: white; /*#FFF9F5*/
+      color: var(--nord0);
+    font-family: palatino;
+    text-align: left;
+    font-size: 20px;
+  }
+
+
+/*-- ARTICLE METADATA --*/
+  d-byline {
+    --heading-size:    0.6rem;
+    --heading-color:   rgba(0, 0, 0, 0.5);
+    --body-size:       0.8rem;
+    --body-color:      rgba(0, 0, 0, 0.8);
+  }
+
+/*-- ARTICLE TABLE OF CONTENTS --*/
+  .d-contents {
+    --heading-size:    18px;
+    --contents-size:   13px;
+  }
+
+/*-- ARTICLE APPENDIX --*/
+  d-appendix {
+    --heading-size:    15px;
+    --heading-color:   rgba(0, 0, 0, 0.65);
+    --text-size:       0.8em;
+    --text-color:      rgba(0, 0, 0, 0.5);
+  }
+
+/*-- WEBSITE HEADER + FOOTER --*/
+  /* These properties only apply to Distill sites and blogs  */
+  
+  .distill-site-header {
+    --title-size:       22px;
+    --text-color:       #0049e6;
+      --text-size:        22px;
+    --hover-color:      brown;
+    --bkgd-color:       white;
+  }
+
+.distill-site-footer {
+  --text-color:       #0049e6;
+    --text-size:        15px;
+  --hover-color:      blue;
+  --bkgd-color:       rgba(210, 210, 210, 1);
+}
+
+/* Code */
+  d-article div.sourceCode {
+    background-color: #DBFF33;
+      font-size: 10rem;
+    line-height: 1.5;
+  }

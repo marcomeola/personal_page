@@ -1,12 +1,46 @@
 name: "personal_page"
-title: "Marco Meola"
+title: ""
+exclude: ["*.csv"]
 description: |
   Marco Meola
 output_dir: "docs"
 navbar:
+  search: false
+  logo: 
+    image: images/logo.png
+    href: http://www.marcomeola.com
   right:
     - text: "Home"
       href: index.html
     - text: "About"
       href: about.html
-output: distill::distill_article
+    - text: "Research"
+      menu:
+        - text: "Microbiome in glacier forefields"
+          href: glacier.html
+        - text: "Bioaerosol - Air microbiome"
+          href: bioaerosol.html
+        - text: "Food Microbiome"
+          href: food.html
+    - icon: fa fab-github
+      href: https://github.com/marcomeola/personal_page
+output: 
+  distill::distill_article
+    #code_folding: true
+    #highlight: haddock
+#     theme: main_theme.css
+# preview: images/Meola_CV_crop.jpg
+# collections:
+#   posts:
+#     disqus:
+#       shortname: 
+#       hidden: false
+#     categories: true
+#     categories_metadata: true
+#     authors_metadata: true
+#     share: [twitter, linkedin]
+#   teaching:
+#     categories: true
+#     categories_metadata: true
+#     authors_metadata: true
+#     share: [twitter, linkedin]

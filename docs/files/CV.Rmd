@@ -1,0 +1,58 @@
+---
+title: 'Resume'
+output:
+  distill::distill_article:
+    theme: theme.css
+---
+
+```{r include=FALSE}
+library(kableExtra)
+```
+
+## Education
+* Ph.D. Candidate in Economics, Goethe University Frankfurt, Frankfurt (Germany), _2019 - Present_
+* M.Sc. in Economics, Middle East Technical University, Ankara (Turkey), _2016-2018_
+* B.A. in Economics, Bogazici University, Istanbul (Turkey),  _2010-2015_
+  
+## Employment
+* Researcher at Central Bank of the Republic of Turkey, _2016-2019_
+  * Research & Monetary Policy Department
+      * **Short Term Inflation Forecasting**: Conducted short term macro-econometric modeling and forecasting in the price analysis team using various types of modeling techniques. Mainly used time-varying parameter models, Bayesian VAR Models, disaggregate models, satellite models, and carried out model performance. Furthermore regularly contributed to the quarterly inflation reports, monthly price development releases, and ad hoc policy reports.
+      
+      * **International Economic Growth**: Wrote policy reports and briefs on international economic developments and their prospective impacts on the economy. Closely following the key economic indicators and macroeconomic data and the impact on the export performance.
+  
+## Fields of Interest
+* Primary
+  * Macroeconomics, Applied Econometrics 
+* Secondary
+  * Machine Learning, Data Science
+
+## Articles
+
+* Market structure and exchange rate pass-through in the Turkish manufacturing industry: Evidence from sectoral data, `r text_spec("[Link](https://onlinelibrary.wiley.com/doi/full/10.1111/boer.12329)", background = "steelblue", color = "yellow", bold = T)`
+
+* Nonlinear Dynamics in Exchange Rate Pass Through and Inflation Persistence: The Case of Turkish Economy, `r text_spec("[Link](http://archive.aessweb.com/index.php/5009/article/view/297)", background = "steelblue", color = "yellow", bold = T)`
+
+## Working Papers
+
+* Uneven Consequences of Coronavirus Pandemic: Evidence from a Real Time Survey, `r text_spec("[Link](https://mpra.ub.uni-muenchen.de/107842/)", background = "steelblue", color = "yellow", bold = T)`
+
+## Grants \& Awards
+* Graduate School Fellowship/Scholarship
+  * Ph.D. Fellowship
+
+## Personal
+* Citizenship :  Turkey
+* Languages :  Turkish (Native), English (Fluent), Spanish (Pre-Int), German (Basic)
+
+## Computer Skills
+* Julia, Python, R, Matlab/Dynare, Stata, Eviews, Gretl, $\LaTeX$
+
+## Interests
+* Professional Photography, Classical Music
+
+---
+
+<!-- Click `r text_spec("[HERE](cv.pdf)", background = "steelblue", color = "yellow", bold = T)` PDF Version -->
+
+[`r fontawesome::fa("home")`](http://www.marcomeola.com)
